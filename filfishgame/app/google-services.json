@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204618454280",
+    "firebase_url": "https://fiyfishdata.firebaseio.com",
+    "project_id": "fiyfishdata",
+    "storage_bucket": "fiyfishdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204618454280:android:2970fdb856e94c3d",
+        "android_client_info": {
+          "package_name": "com.example.user.filfishgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204618454280-j63f0rac87grmiqtl2hovkii91p3o63m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.filfishgame",
+            "certificate_hash": "f0d781d20c6c1019c2f39b342261f429dd1df590"
+          }
+        },
+        {
+          "client_id": "204618454280-siqa6hsnu029u5ejtgok2ol7agss6mjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3yit1rLpL29dZcNTKHTd3aV8JeXd9dNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204618454280-siqa6hsnu029u5ejtgok2ol7agss6mjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

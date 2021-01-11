@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d87e7"
+    tools:context=".Menubutton">
+
+
+    <Button
+        android:id="@+id/newdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64sp"
+        android:layout_marginLeft="64sp"
+        android:layout_marginBottom="172sp"
+        android:text="英翻中"
+        android:textColor="#ebedf2"
+        android:background="@drawable/shape"
+        android:onClick="C_Change_E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/gamebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76sp"
+        android:layout_marginRight="76sp"
+        android:layout_marginBottom="172sp"
+        android:background="@drawable/shape"
+        android:onClick="gotogame"
+        android:text="填充題"
+        android:textColor="#ebedf2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/wordbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64sp"
+        android:layout_marginLeft="64sp"
+        android:layout_marginBottom="80sp"
+        android:background="@drawable/shape"
+        android:onClick="choosegame"
+        android:text="中翻英"
+        android:textColor="#ebedf2"
+        app:layout_constraintBottom_toTopOf="@+id/newdata"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Errow_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76sp"
+        android:layout_marginRight="76sp"
+        android:layout_marginBottom="80sp"
+        android:background="@drawable/shape"
+        android:onClick="gotoerrow"
+        android:text="錯誤單字"
+        android:textColor="#ebedf2"
+        app:layout_constraintBottom_toTopOf="@+id/gamebutton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/generatedtext" />
+
+
+</android.support.constraint.ConstraintLayout>
